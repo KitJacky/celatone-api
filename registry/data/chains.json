@@ -1,266 +1,120 @@
 {
   "osmosis": {
-    "name": "Osmosis",
-    "bech32Prefix": "osmo",
+    "name": "MEME-Network",
+    "bech32Prefix": "meme",
     "slip44": "118",
-    "website": "https://osmosis.zone",
-    "iconUri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
-    "documentation": "https://docs.osmosis.zone",
-    "github": "https://github.com/osmosis-labs",
+    "website": "https://memenetwork.io",
+    "iconUri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+    "documentation": "https://docs.meme.sx",
+    "github": "https://github.com/memecosmos",
     "networks": [
       {
         "type": "testnet",
-        "celatone": "https://celatone.osmosis.zone/testnet",
-        "chainId": "osmo-test-4",
-        "chainName": "Osmosis Testnet",
-        "publicLCD": "https://lcd-test.osmosis.zone",
-        "lcdSwagger": "https://lcd-test.osmosis.zone/swagger/",
-        "publicRPC": "https://rpc-test.osmosis.zone:443",
-        "rpcSwagger": "https://rpc-docs.osmosis.zone/",
-        "publicGRPC": "https://grpc-test.osmosis.zone:443",
+        "celatone": "https://celatone.memenetwork.io/testnet",
+        "chainId": "meme-testnet-2",
+        "chainName": "MEME Network Testnet",
+        "publicLCD": "https://api-testnet-1.meme.sx",
+        "lcdSwagger": "https://api-testnet-1.meme.sx/swagger/",
+        "publicRPC": "https://rpc-testnet-1.meme.sx:443",
+        "rpcSwagger": "https://rpc-testnet-1.meme.sx/",
+        "publicGRPC": "https://grpc-testnet-1.meme.sx:443",
         "lcds": [
           {
-            "provider": "All That Node",
-            "logo": "https://pbs.twimg.com/profile_images/1476486139297300480/ZYOlbNS9_400x400.jpg",
-            "url": "https://osmosis-testnet-rpc.allthatnode.com:1317",
+            "provider": "MEME Network",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+            "url": "https://api-testnet-1.meme.sx:443",
             "archive": false
           },
           {
-            "provider": "All That Node",
-            "logo": "https://pbs.twimg.com/profile_images/1476486139297300480/ZYOlbNS9_400x400.jpg",
-            "url": "https://osmosis-testnet-archive.allthatnode.com:1317",
+            "provider": "MEME Network",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+            "url": "https://api-testnet-1.meme.sx:443",
             "archive": true
           }
         ],
         "rpcs": [
           {
-            "provider": "All That Node",
-            "logo": "https://pbs.twimg.com/profile_images/1476486139297300480/ZYOlbNS9_400x400.jpg",
-            "url": "https://osmosis-testnet-rpc.allthatnode.com:26657",
+            "provider": "MEME Network",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+            "url": "https://rpc-testnet-1.meme.sx:443",
             "archive": false
           },
           {
-            "provider": "All That Node",
-            "logo": "https://pbs.twimg.com/profile_images/1476486139297300480/ZYOlbNS9_400x400.jpg",
-            "url": "https://osmosis-testnet-archive.allthatnode.com:26657",
+            "provider": "MEME Network",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+            "url": "https://rpc-testnet-1.meme.sx:443",
             "archive": true
           }
         ],
         "faucets": [
           {
-            "provider": "Osmosis",
-            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
-            "url": "https://faucet.osmosis.zone/"
-          },
-          {
-            "provider": "All That Node",
-            "logo": "https://pbs.twimg.com/profile_images/1476486139297300480/ZYOlbNS9_400x400.jpg",
-            "url": "https://www.allthatnode.com/faucet/osmosis.dsrv/"
-          },
-          {
-            "provider": "Stakely",
-            "logo": "https://pbs.twimg.com/profile_images/1612163541301092357/zhYotDeZ_400x400.jpg",
-            "url": "https://stakely.io/en/faucet/osmosis-osmo"
+            "provider": "MEME",
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+            "url": "https://testnet-faucet.meme.sx/"
           }
         ]
       },
       {
         "type": "mainnet",
-        "celatone": "https://celatone.osmosis.zone/mainnet",
-        "chainId": "osmosis-1",
-        "chainName": "Osmosis Mainnet",
-        "publicLCD": "https://lcd.osmosis.zone",
-        "lcdSwagger": "https://lcd.osmosis.zone/swagger/",
-        "publicRPC": "https://rpc.osmosis.zone",
-        "rpcSwagger": "https://rpc-docs.osmosis.zone/",
-        "publicGRPC": "https://grpc.osmosis.zone:9090",
+        "celatone": "https://celatone.memenetwork.io/mainnet",
+        "chainId": "meme-1",
+        "chainName": "MEME Network Mainnet",
+        "publicLCD": "https://api-meme-1.meme.sx",
+        "lcdSwagger": "https://api-meme-1.meme.sx/swagger/",
+        "publicRPC": "https://rpc-meme-1.meme.sx:443",
+        "rpcSwagger": "https://rpc-meme-1.meme.sx/",
+        "publicGRPC": "https://grpc.meme-1.meme.sx/",
         "lcds": [
-          {
-            "provider": "AutoStake",
-            "logo": "https://pbs.twimg.com/profile_images/1557643521212940288/vC_cVxHx_400x400.jpg",
-            "url": "https://osmosis-mainnet-lcd-autostake.net:443",
-            "archive": false
-          },
-          {
-            "provider": "Chainapsis",
-            "logo": "https://pbs.twimg.com/profile_images/1557643521212940288/vC_cVxHx_400x400.jpg",
-            "url": "https://lcd-osmosis.blockapsis.com",
-            "archive": false
-          },
-          {
-            "provider": "Chainlayer",
-            "logo": "https://pbs.twimg.com/profile_images/1151893378453442560/u6juKTAt_400x400.png",
-            "url": "https://osmosis-lcd.quickapi.com:443",
-            "archive": false
-          },
-          {
-            "provider": "EcoStake",
-            "logo": "https://pbs.twimg.com/profile_images/1480299429462687748/Mt8LsH6f_400x400.jpg",
-            "url": "https://rest-osmosis.ecostake.com",
-            "archive": false
-          },
-          {
-            "provider": "Inter Blockchain Services",
-            "logo": "https://pbs.twimg.com/profile_images/1551523742647468033/iT0ianMV_400x400.jpg",
-            "url": "https://osmosis-api.ibs.team",
-            "archive": false
-          },
-          {
-            "provider": "Interbloc",
-            "logo": "",
-            "url": "https://api.osmosis.interbloc.org",
-            "archive": false
-          },
-          {
-            "provider": "Ivaldi Labs",
-            "logo": "https://pbs.twimg.com/profile_images/1582322531037495297/z4GBBpu6_400x400.jpg",
-            "url": "https://osmosis.rest.interchain.ivaldilabs.xyz",
-            "archive": false
-          },
-          {
-            "provider": "Lavender.Five",
-            "logo": "https://pbs.twimg.com/profile_images/1557643521212940288/vC_cVxHx_400x400.jpg",
-            "url": "https://osmosis-api.lavenderfive.com:443",
-            "archive": false
-          },
-          {
-            "provider": "Nodejumper",
-            "logo": "https://pbs.twimg.com/profile_images/1610546500597063681/y_lOEYVq_400x400.jpg",
-            "url": "https://osmosis.nodejumper.io:1317",
-            "archive": false
-          },
-          {
-            "provider": "Notional",
-            "logo": "https://pbs.twimg.com/profile_images/1621073239580762115/siIrc9lH_400x400.jpg",
-            "url": "https://api-osmosis-ia.cosmosia.notional.ventures/",
-            "archive": false
-          },
-          {
-            "provider": "Osmosis Support Lab",
-            "logo": "https://pbs.twimg.com/profile_images/1610698501431738381/2sZ_JyIt_400x400.png",
-            "url": "https://api.osl.zone",
-            "archive": false
-          },
           {
             "provider": "Polkachu",
             "logo": "https://pbs.twimg.com/profile_images/1457063156790935554/blYozUQC_400x400.jpg",
-            "url": "https://osmosis-api.polkachu.com",
+            "url": "https://meme-api.polkachu.com:443",
             "archive": false
           },
           {
-            "provider": "Silk Nodes",
-            "logo": "https://pbs.twimg.com/profile_images/1526921477404123136/oArsu81F_400x400.jpg",
-            "url": "https://api.osmosis.silknodes.io",
+            "provider": "PUPMØS",
+            "logo": "https://www.pupmos.zone/_next/image?url=%2Fvalidators%2Fmeme.png&w=128&q=75",
+            "url": "https://api-meme.pupmos.network:443",
             "archive": false
           },
           {
-            "provider": "Stakin",
-            "logo": "https://pbs.twimg.com/profile_images/1609897956999663623/LlnUHLz5_400x400.jpg",
-            "url": "https://osmosis.rest.stakin-nodes.com",
+            "provider": "Kleomedes",
+            "logo": "https://pbs.twimg.com/profile_images/1615319138653585411/OAh1VCSq_400x400.jpg",
+            "url": "https://meme-api.kleomedes.network:443",
             "archive": false
           },
           {
-            "provider": "WhisperNode",
-            "logo": "https://pbs.twimg.com/profile_images/1304816859213180931/8QnYqNTE_400x400.jpg",
-            "url": "https://lcd-osmosis.whispernode.com:443",
+            "provider": "AlxVoy",
+            "logo": "https://anode.team/img/logo.png",
+            "url": "https://meme.api.m.anode.team:443",
             "archive": false
           }
         ],
         "rpcs": [
           {
-            "provider": "Chainapsis",
-            "logo": "https://pbs.twimg.com/profile_images/1552227877323583488/qFPHdhcZ_400x400.jpg",
-            "url": "https://rpc-osmosis.blockapsis.com",
+            "provider": "Kleomedes",
+            "logo": "https://pbs.twimg.com/profile_images/1615319138653585411/OAh1VCSq_400x400.jpg",
+            "url": "https://meme-rpc.kleomedes.network/",
             "archive": false
           },
           {
-            "provider": "Chainlayer",
-            "logo": "https://pbs.twimg.com/profile_images/1151893378453442560/u6juKTAt_400x400.png",
-            "url": "https://osmosis-rpc.quickapi.com:443",
+            "provider": "PUPMØS",
+            "logo": "https://www.pupmos.zone/_next/image?url=%2Fvalidators%2Fmeme.png&w=128&q=75",
+            "url": "https://rpc-meme.pupmos.network",
             "archive": false
           },
-          {
-            "provider": "EcoStake",
-            "logo": "https://pbs.twimg.com/profile_images/1480299429462687748/Mt8LsH6f_400x400.jpg",
-            "url": "https://rpc-osmosis.ecostake.com",
-            "archive": false
-          },
-          {
-            "provider": "Golden Ratio Staking",
-            "logo": "https://pbs.twimg.com/profile_images/1464312834641170439/tbdCZdPF_400x400.jpg",
-            "url": "https://rpc.osmosis.goldenratiostaking.net",
-            "archive": false
-          },
-          {
-            "provider": "Inter Blockchain Services",
-            "logo": "https://pbs.twimg.com/profile_images/1551523742647468033/iT0ianMV_400x400.jpg",
-            "url": "https://osmosis-rpc.ibs.team",
-            "archive": false
-          },
-          {
-            "provider": "Interbloc",
-            "logo": "",
-            "url": "https://rpc.osmosis.interbloc.org",
-            "archive": false
-          },
-          {
-            "provider": "Ivaldi Labs",
-            "logo": "https://pbs.twimg.com/profile_images/1582322531037495297/z4GBBpu6_400x400.jpg",
-            "url": "https://osmosis.rpc.interchain.ivaldilabs.xyz",
-            "archive": false
-          },
-          {
-            "provider": "Lavender.Five",
-            "logo": "https://pbs.twimg.com/profile_images/1571159763962011651/NYJePebQ_400x400.jpg",
-            "url": "https://osmosis-rpc.lavenderfive.com:443",
-            "archive": false
-          },
-          {
-            "provider": "Nodejumper",
-            "logo": "https://pbs.twimg.com/profile_images/1610546500597063681/y_lOEYVq_400x400.jpg",
-            "url": "https://osmosis.nodejumper.io",
-            "archive": false
-          },
-          {
-            "provider": "Notional",
-            "logo": "https://pbs.twimg.com/profile_images/1621073239580762115/siIrc9lH_400x400.jpg",
-            "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/",
-            "archive": false
-          },
-          {
-            "provider": "Osmosis Support Lab",
-            "logo": "https://pbs.twimg.com/profile_images/1610698501431738381/2sZ_JyIt_400x400.png",
-            "url": "https://rpc.osl.zone",
-            "archive": false
-          },
+          
           {
             "provider": "Polkachu",
             "logo": "https://pbs.twimg.com/profile_images/1457063156790935554/blYozUQC_400x400.jpg",
-            "url": "https://osmosis-rpc.polkachu.com",
+            "url": "https://meme-rpc.polkachu.com",
             "archive": false
           },
+          
           {
-            "provider": "Silk Nodes",
-            "logo": "https://pbs.twimg.com/profile_images/1526921477404123136/oArsu81F_400x400.jpg",
-            "url": "https://rpc.osmosis.silknodes.io",
-            "archive": false
-          },
-          {
-            "provider": "Stakin",
-            "logo": "https://pbs.twimg.com/profile_images/1609897956999663623/LlnUHLz5_400x400.jpg",
-            "url": "https://osmosis.rpc.stakin-nodes.com",
-            "archive": false
-          },
-          {
-            "provider": "Validator Network",
-            "logo": "https://pbs.twimg.com/profile_images/1107974141641138177/pL6EBttN_400x400.png",
-            "url": "https://osmosis.validator.network/",
-            "archive": false
-          },
-          {
-            "provider": "WhisperNode",
-            "logo": "https://pbs.twimg.com/profile_images/1304816859213180931/8QnYqNTE_400x400.jpg",
-            "url": "https://rpc-osmosis.whispernode.com:443",
+            "provider": "AlxVoy",
+            "logo": "https://anode.team/img/logo.png",
+            "url": "https://meme.rpc.m.anode.team",
             "archive": false
           }
         ],
