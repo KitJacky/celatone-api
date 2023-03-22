@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "meme-art",
+    "name": "CW721 with MEME Art tokenomics contract",
+    "address": "meme1zwv6feuzhy6a9wekh96cd57lsarmqlwxdypdsplw6zhfncqw6ftqcda87z",
+    "description": "MEME Art CW721 with tokenomics contract mainnet",
+    "code": 4,
+    "github": "https://github.com/memecosmos/Meme-Art"
+  }
+]
