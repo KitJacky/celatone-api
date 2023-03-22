@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "meme-art",
+    "name": "MEME Art CW721",
+    "id": 4
+    "description": "CW721 with MEME Art tokenomics contract",
+    "github": "https://github.com/apollodao/cw-plus-fork/tree/v0.13.2/contracts/cw3-fixed-multisig"
+  },
+]
